@@ -92,3 +92,8 @@ http://localhost:5000/api/profiles/67d01a6c15503afdba155a20
 get et post et delete
 http://localhost:5000/api/profiles/
 
+
+
+docker-compose down
+
+docker-compose up --build -d 
