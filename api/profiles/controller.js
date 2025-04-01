@@ -64,7 +64,6 @@ exports.createProfile = async (req, res) => {
       return res.status(400).json({ message: 'Profil avec cet email existe déjà' });
     }
     
-    // Créer un nouveau profil
     profile = new Profile({
       name,
       email

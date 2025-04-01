@@ -93,7 +93,17 @@ get et post et delete
 http://localhost:5000/api/profiles/
 
 
+search
+http://localhost:5000/api/profiles?search=pierre
+
+skills search
+http://localhost:5000/api/profiles?skills=MongoDB&localisation=Paris&search=dupont
+
+
+
 
 docker-compose down
 
 docker-compose up --build -d 
+
+root example
